@@ -11,7 +11,12 @@ app.get('/user', (req, res)=>{
 
 app.post('/user', (req, res) => {
   const {nome, idade} = req.body;
-  usuarios.push({nome, idade})
+  if (nome && idade){
+    usuarios.push({nome, idade})
+  } 
+  else { return res.send("Informações inválidas")}
+
+  console.log(usuarios)
   res.status(201).send("Tudo ok")
 })
 
