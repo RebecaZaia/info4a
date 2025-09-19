@@ -2,7 +2,7 @@
 import express from 'express'
 const app = express()
 
-app.use(espress.json())
+app.use(express.json())
 
 const usuarios = []
 app.get('/user', (req, res)=>{
