@@ -1,11 +1,29 @@
 # info4a
 Aula de PTAS na info4A
 
-git status
-git add .
-git commit -m ""
-git push
+enviar
+    git status
+    git add .
+    git commit -m ""
+    git push  /  git pussh origin ex_nome
 
-git pull
+trazer
+    git pull  /  git pull origin ex_nome
 
-Terminal: npm run dev
+Rodar -> Terminal: npm run dev
+
+Vizualizar historico de commits
+    git log
+
+Diferenças no código
+    git diff
+
+Branch
+    git branch
+    git checkout -b ex_nome
+    git checkout ex_outro_nome
+
+Mesclar
+    git merge ex_nome
+
+sincronização -> git fetch
