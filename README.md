@@ -1,6 +1,8 @@
 # info4a
 Aula de PTAS na info4A
 
+site: mongoose
+
 enviar
     git status
     git add .
